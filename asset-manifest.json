@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ShayGyawali/static/css/main.073c9b0a.css",
-    "main.js": "/ShayGyawali/static/js/main.0c17e6bf.js",
+    "main.js": "/ShayGyawali/static/js/main.64cd7c84.js",
     "static/js/787.268506bf.chunk.js": "/ShayGyawali/static/js/787.268506bf.chunk.js",
     "static/media/logo.svg": "/ShayGyawali/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ShayGyawali/index.html",
     "main.073c9b0a.css.map": "/ShayGyawali/static/css/main.073c9b0a.css.map",
-    "main.0c17e6bf.js.map": "/ShayGyawali/static/js/main.0c17e6bf.js.map",
+    "main.64cd7c84.js.map": "/ShayGyawali/static/js/main.64cd7c84.js.map",
     "787.268506bf.chunk.js.map": "/ShayGyawali/static/js/787.268506bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.0c17e6bf.js"
+    "static/js/main.64cd7c84.js"
   ]
 }
