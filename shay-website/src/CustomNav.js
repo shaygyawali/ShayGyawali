@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './CustomNav.css';
 import Navbar from 'react-bootstrap/Navbar'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
