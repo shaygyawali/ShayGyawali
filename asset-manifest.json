@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ShayGyawali/static/css/main.756af292.css",
-    "main.js": "/ShayGyawali/static/js/main.9428a1fd.js",
+    "main.css": "/ShayGyawali/static/css/main.f474acfb.css",
+    "main.js": "/ShayGyawali/static/js/main.fdacc001.js",
     "static/js/787.268506bf.chunk.js": "/ShayGyawali/static/js/787.268506bf.chunk.js",
     "static/media/logo.svg": "/ShayGyawali/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ShayGyawali/index.html",
-    "main.756af292.css.map": "/ShayGyawali/static/css/main.756af292.css.map",
-    "main.9428a1fd.js.map": "/ShayGyawali/static/js/main.9428a1fd.js.map",
+    "main.f474acfb.css.map": "/ShayGyawali/static/css/main.f474acfb.css.map",
+    "main.fdacc001.js.map": "/ShayGyawali/static/js/main.fdacc001.js.map",
     "787.268506bf.chunk.js.map": "/ShayGyawali/static/js/787.268506bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.756af292.css",
-    "static/js/main.9428a1fd.js"
+    "static/css/main.f474acfb.css",
+    "static/js/main.fdacc001.js"
   ]
 }
