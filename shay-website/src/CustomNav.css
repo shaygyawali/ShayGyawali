@@ -1,0 +1,28 @@
+.navHolder{
+    background-color: pink;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  
+  .navbar-collapse{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+    right: 0;
+  }
+  
+  #offcanvasNavbar-expand-sm{
+    font-family: 'Inter', sans-serif;
+  }
