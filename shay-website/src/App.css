@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Source+Code+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Source+Code+Pro:wght@200;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Source+Code+Pro:wght@200;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Source+Code+Pro:wght@200;400;500;900&display=swap');
 
 html, body{
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
-
 
 .App{
   height: 100%;
@@ -11,31 +16,50 @@ html, body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid pink;
 }
 
 .hero{
-  width: 70%;
+  height: 100vh;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:0;
+  padding: auto;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .title{
   font-family: 'Inter', sans-serif;
-  font-size: 80px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 75px;
+  font-weight: 900;
 }
 
 .subTitle{
   font-family: 'Inter', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 40px;
   align-self: center;
+  font-weight: 500;
 }
 
-.downPointer{
-  width: 75px;
-  transform: rotate(180deg); /* Equal to rotateZ(45deg) */
+
+mark {
+  background: #FFFF00!important;
+  animation: fadeIn 5s;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 775px) {
+
+  .hero{
+    height: 100vh;
+  }
   .title {
     font-size: 50px;
   }
@@ -46,11 +70,67 @@ html, body{
 
   .downPointer{
     width: 50px;
-    transform: rotate(180deg); /* Equal to rotateZ(45deg) */
   }
 
   .customNav{
     z-index: 1;
   }
+
 }
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 35px;
+  }
+
+  .subTitle{
+    font-size: 14px;
+  }
+
+  .downPointer{
+    width: 30px;
+  }
+
+  .customNav{
+    z-index: 1;
+  }
+
+  .hero{
+    width: 80%;
+    height: 100vh;
+  }
+
+
+}
+
+svg{
+  width: 100px;
+  height: 100px;
+  transition:width 2s ease;
+  overflow: visible;
+  transform: rotate(90deg);
+  top: 0;
+  left: 0;
+}
+
+svg:hover{
+  width: 800px;
+}
+
+line:hover{
+  stroke: black;
+}
+
+polygon:hover{
+  fill: black;
+}
+
+svg:click{
+  width: 500px
+}
+
+.all{
+  height: 100vh;
+}
+
 

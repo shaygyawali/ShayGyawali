@@ -1,0 +1,25 @@
+.cardsHolder{
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin: auto;
+    align-items: center;
+}
+
+.card{
+    margin: auto;
+    height: 50%;
+}
+
+@media screen and (max-width: 480px) {
+
+    .card{
+        margin-bottom: 30px;
+    }
+  
+  }
+

@@ -25,7 +25,7 @@ function CustomNav() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Shay Gyawali
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -34,16 +34,16 @@ function CustomNav() {
                     title="Work"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3"> LMAOO </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item href="https://lmaoo.wtf/"> LMAOO </NavDropdown.Item>
+                    <NavDropdown.Item href="https://timey.me/">
                       Timey
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action5">
+                    <NavDropdown.Item href="https://github.com/shaygyawali">
                       Github
                     </NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#action1">Contact</Nav.Link>
+                  <Nav.Link href="mailto:shaygyawali1@gmail.com">Contact</Nav.Link>
                   <Nav.Link href="#action2">Resume</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
