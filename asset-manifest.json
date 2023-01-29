@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ShayGyawali/static/css/main.9bd01c54.css",
-    "main.js": "/ShayGyawali/static/js/main.f06b2a03.js",
+    "main.css": "/ShayGyawali/static/css/main.ec7c84b2.css",
+    "main.js": "/ShayGyawali/static/js/main.5d0c4bea.js",
     "static/js/787.268506bf.chunk.js": "/ShayGyawali/static/js/787.268506bf.chunk.js",
-    "static/media/pointer.png": "/ShayGyawali/static/media/pointer.7686e8fd6b2579644268.png",
+    "static/media/pointer.png": "/ShayGyawali/static/media/pointer.cd70aaa1e29990883609.png",
     "static/media/logo.svg": "/ShayGyawali/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ShayGyawali/index.html",
-    "main.9bd01c54.css.map": "/ShayGyawali/static/css/main.9bd01c54.css.map",
-    "main.f06b2a03.js.map": "/ShayGyawali/static/js/main.f06b2a03.js.map",
+    "main.ec7c84b2.css.map": "/ShayGyawali/static/css/main.ec7c84b2.css.map",
+    "main.5d0c4bea.js.map": "/ShayGyawali/static/js/main.5d0c4bea.js.map",
     "787.268506bf.chunk.js.map": "/ShayGyawali/static/js/787.268506bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd01c54.css",
-    "static/js/main.f06b2a03.js"
+    "static/css/main.ec7c84b2.css",
+    "static/js/main.5d0c4bea.js"
   ]
 }
