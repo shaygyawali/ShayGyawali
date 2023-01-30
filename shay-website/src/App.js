@@ -40,6 +40,12 @@ function App() {
     </div>
        
     <AllCards className="all"></AllCards>
+
+    <footer className="footer"> 
+      <p>
+        Built using React.js and React Bootstrap
+      </p>
+    </footer>
   </div>
 
   );
