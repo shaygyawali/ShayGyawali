@@ -6,6 +6,10 @@
     font-weight: bold;
 }
 
+.card{
+    transform: scale(0.8);
+}
+
 .card:hover{
     transform: scale(1.05);
 }
