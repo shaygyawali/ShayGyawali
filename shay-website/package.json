@@ -1,7 +1,7 @@
 {
   "name": "shay-website",
   "version": "0.1.0",
-  "homepage": "https://shaygyawali.github.io/ShayGyawali",
+  "homepage": "https://shaygyawali.com",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "5.16.5",

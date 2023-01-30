@@ -12,6 +12,7 @@ html, body{
 
 .App{
   height: 100%;
+  width: 100%;
   text-align: center;
   margin: auto;
   display: flex;
@@ -32,6 +33,7 @@ html, body{
   text-align: center;
   margin: auto;
   position: relative;
+  background-color: pink;
 }
 
 @keyframes fadeIn {
