@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ShayGyawali/static/css/main.1467d4a7.css",
-    "main.js": "/ShayGyawali/static/js/main.f0a3e4dc.js",
+    "main.css": "/ShayGyawali/static/css/main.99a47c62.css",
+    "main.js": "/ShayGyawali/static/js/main.48f76ec3.js",
     "static/js/787.268506bf.chunk.js": "/ShayGyawali/static/js/787.268506bf.chunk.js",
     "static/media/bffr.png": "/ShayGyawali/static/media/bffr.0d66abbb8376a0acdef3.png",
     "static/media/timey.png": "/ShayGyawali/static/media/timey.baf4a47d6679f9498b13.png",
@@ -10,12 +10,12 @@
     "static/media/pointer.png": "/ShayGyawali/static/media/pointer.cd70aaa1e29990883609.png",
     "static/media/logo.svg": "/ShayGyawali/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ShayGyawali/index.html",
-    "main.1467d4a7.css.map": "/ShayGyawali/static/css/main.1467d4a7.css.map",
-    "main.f0a3e4dc.js.map": "/ShayGyawali/static/js/main.f0a3e4dc.js.map",
+    "main.99a47c62.css.map": "/ShayGyawali/static/css/main.99a47c62.css.map",
+    "main.48f76ec3.js.map": "/ShayGyawali/static/js/main.48f76ec3.js.map",
     "787.268506bf.chunk.js.map": "/ShayGyawali/static/js/787.268506bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1467d4a7.css",
-    "static/js/main.f0a3e4dc.js"
+    "static/css/main.99a47c62.css",
+    "static/js/main.48f76ec3.js"
   ]
 }
