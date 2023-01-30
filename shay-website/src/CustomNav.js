@@ -44,7 +44,7 @@ function CustomNav() {
                     </NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="mailto:shaygyawali1@gmail.com">Contact</Nav.Link>
-                  <Nav.Link href="#action2">Resume</Nav.Link>
+                  <Nav.Link href="https://drive.google.com/file/d/1PnJBSgM7CL7rEV2G426lfiCbYHVdiUXa/view?usp=sharing">Resume</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
