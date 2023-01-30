@@ -33,7 +33,6 @@ html, body{
   text-align: center;
   margin: auto;
   position: relative;
-  background-color: pink;
 }
 
 @keyframes fadeIn {
