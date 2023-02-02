@@ -1,15 +1,13 @@
 .cardsHolder{
     position: relative;
-    height: 90vh;
+    height: 100vh;
     width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    align-items: center;
-    margin-top: 30px;
 }
 
 .card{

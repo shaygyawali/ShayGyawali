@@ -1,0 +1,21 @@
+.t2{
+    font-style: italic;
+}
+
+.t1{
+    font-weight: bold;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.btn{
+    background-color: rgb(38, 38, 38);
+    border-color: rgb(38, 38, 38);
+}
+
+.btn:hover{
+    background-color: black;
+    border-color: black;
+}
