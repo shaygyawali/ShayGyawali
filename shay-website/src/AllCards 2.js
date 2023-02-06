@@ -23,7 +23,7 @@ function AllCards() {
         </CardComponent>
         <CardComponent img = {timey} title = "TIMEY" text="Smart timer that holds you accountable" action = "Timey.me" site="https://timey.me" desc="Front-end made with React.js, designed with Figma">
         </CardComponent>
-        <CardComponent img = {sp0t} title = "sp0t" text="Location based social media" action = "sp0t app" site="https://timey.me" desc="Helped build sp0t's notification, find friends, and onboarding page using Swift. Currently working on share post feature using Firebase Dynamic Links">
+        <CardComponent img = {sp0t} title = "sp0t" text="Location based social media" action = "sp0t app" site="https://sp0t.app/" desc="Helped build sp0t's notification, find friends, and onboarding page using Swift. Currently working on share post feature using Firebase Dynamic Links">
         </CardComponent>
         <CardComponent img = {bffr} title = "BFFR" text="BeReal, for music" action = "BFFR sample feed" desc="Currently in the works. Designing and building BFFR's interface using Figma and MERN stack. After running using READ.ME instructions, use any dummy data to log in and view sample feed">
         </CardComponent>
