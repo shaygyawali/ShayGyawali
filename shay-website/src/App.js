@@ -23,7 +23,7 @@ function App() {
     <CustomNav></CustomNav>
 
     <div className ="hero">
-      <p className="title"> Hi! I'm Shay, a <mark>Student.</mark></p> 
+      <p className="title"> Hi! I'm Shay, and I'm currently <mark>Building.</mark></p> 
       <p className="subTitle">As lover of innovative tech, I’ve been applying my skills by building, breaking, and learning: </p>
       <Link  className = "arrowGrow" to="cards" spy={true} smooth={false}>    
         <svg color = "black">
