@@ -1,18 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import CustomNav from './CustomNav'
-import CardComponent from './CardComponent'
 import AllCards from './AllCards';
-import Navbar from 'react-bootstrap/Navbar'
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Offcanvas from 'react-bootstrap/Offcanvas';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import pointer from './pointer.png'; // Tell webpack this JS file uses this image
 import {Link} from 'react-scroll'
+import Headshot from './headshot.png'
+import { TypeAnimation } from 'react-type-animation';
+import '@fontsource/source-code-pro/400.css'; 
+import '@fontsource/source-code-pro/700.css'; 
+
+
+
 
 
 
@@ -23,8 +21,28 @@ function App() {
     <CustomNav></CustomNav>
 
     <div className ="hero">
-      <p className="title"> Hi! I'm Shay, and I'm currently <mark>Building.</mark></p> 
-      <p className="subTitle">As lover of innovative tech, I’ve been applying my skills by building, breaking, and learning: </p>
+      <img src={Headshot} height={200} width={200} className='headshot'></img>
+      <p style={{ fontSize: '1em', fontFamily: '"Source Code Pro", monospace'}}> Hi! I'm Shay 👩🏽‍💻 </p>
+      <TypeAnimation
+      sequence={[
+        'I\'m currently building', 
+        3000, 
+        'I\'m currently learning',
+        3000,
+        'I\'m currently interviewing',
+        500,
+        'I\'m currently interviewing 👀',
+        3000,
+        () => {
+          console.log('Sequence completed');
+        },
+      ]}
+      speed={30}
+      wrapper="span"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '3em', display: 'inline-block', fontFamily: '"Source Code Pro", monospace', fontWeight: '700'}}
+    />
       <Link  className = "arrowGrow" to="cards" spy={true} smooth={false}>    
         <svg color = "black">
           <defs>
