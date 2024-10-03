@@ -22,7 +22,7 @@ function App() {
 
     <div className ="hero">
       <img src={Headshot} height={200} width={200} className='headshot'></img>
-      <p style={{ fontSize: '1em', fontFamily: '"Source Code Pro", monospace'}}> Hi! I'm Shay 👩🏽‍💻 </p>
+      <p style={{ fontSize: '1em', fontFamily: '"Source Code Pro", monospace'}}> Hi! I'm Shay 👩🏽‍💻: an experienced engineer seeking entry-level roles in SWE, mobile, web, or product management. </p>
       <TypeAnimation
       sequence={[
         'I\'m currently building', 
