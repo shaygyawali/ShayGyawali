@@ -9,14 +9,14 @@ import Button from 'react-bootstrap/Button';
 
 function CardComponent(props) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '80%', backgroundColor: '#FFFFFF' }}>
       <Card.Img variant="top" src={props.img}/>
       <Card.Body>
         <Card.Title className="t1">{props.title}</Card.Title>
-        <Card.Text>
+        <Card.Text className="t2">
           {props.text}
         </Card.Text>
-        <Card.Text className="t2">
+        <Card.Text className="t3">
           {props.desc}
         </Card.Text>
         <Button className="btn"

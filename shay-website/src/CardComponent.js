@@ -4,25 +4,51 @@ import './CardComponent.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
+import { TypeAnimation } from 'react-type-animation';
+
+
 
 
 
 function CardComponent(props) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.img}/>
-      <Card.Body>
-        <Card.Title className="t1">{props.title}</Card.Title>
-        <Card.Text>
-          {props.text}
-        </Card.Text>
-        <Card.Text className="t2">
-          {props.desc}
-        </Card.Text>
-        <Button className="btn"
-        href={props.site} variant="primary">{props.action} </Button>
-      </Card.Body>
-    </Card>
+    <div className = "cardHolder">
+      <div className = "imgHolder">
+        <img className="mocks" src={props.img}></img>
+      </div>
+      <div className = "textHolder"> 
+        <p className = "title" style={{display: 'inline-block', fontFamily: '"Source Code Pro", monospace', fontWeight: '700'}} > {props.title}</p>
+        <TypeAnimation
+        sequence={[
+          `${props.tool1} -`, 
+          1000, 
+          `${props.tool1} - ${props.tool2} -`,
+          1000,
+          `${props.tool1} - ${props.tool2} - ${props.tool3}`,
+          1000,
+          () => {
+            console.log('Sequence completed');
+          },
+        ]}
+        className = "text"
+        speed={30}
+        wrapper="span"
+        cursor={true}
+        repeat={Infinity}
+        style={{display: 'inline-block', fontFamily: '"Source Code Pro", monospace', fontWeight: '500'}}
+      />
+
+      <p className = "desc" style={{display: 'inline-block', fontFamily: '"Source Code Pro", monospace', fontWeight: '300', paddingTop: '20px'}} > {props.desc} </p>
+      <Button
+        className = "actionBtn"
+        href={props.site}
+        title="Learn More"
+        color="#000000"
+        accessibilityLabel="Learn more about this purple button"
+      > {props.action} </Button>
+
+      </div>
+    </div>
   );
 }
 

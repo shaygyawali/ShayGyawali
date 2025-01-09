@@ -30,21 +30,8 @@ function CustomNav() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                <NavDropdown
-                    title="Work"
-                    id={`offcanvasNavbarDropdown-expand-${expand}`}
-                  >
-                    <NavDropdown.Item href="https://lmaoo.wtf/"> LMAOO </NavDropdown.Item>
-                    <NavDropdown.Item href="https://timey.me/">
-                      Timey
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="https://github.com/shaygyawali">
-                      Github
-                    </NavDropdown.Item>
-                  </NavDropdown>
                   <Nav.Link href="mailto:shaygyawali1@gmail.com">Contact</Nav.Link>
-                  <Nav.Link href="https://drive.google.com/file/d/1O10wgWgNJdYicO0JqMH5a-VRptpSF-wh/view?usp=sharing">Resume</Nav.Link>
+                  <Nav.Link href="hhttps://drive.google.com/file/d/1JrhqlqGTdkoWV9iFRBnooHlRElh4-K-Y/view?usp=sharing">Resume</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

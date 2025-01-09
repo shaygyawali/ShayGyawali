@@ -8,6 +8,8 @@ import Headshot from './headshot.png'
 import { TypeAnimation } from 'react-type-animation';
 import '@fontsource/source-code-pro/400.css'; 
 import '@fontsource/source-code-pro/700.css'; 
+import { DeviceFrameset } from 'react-device-frameset'
+import 'react-device-frameset/styles/marvel-devices.min.css'
 
 
 
@@ -46,24 +48,19 @@ function App() {
       <Link  className = "arrowGrow" to="cards" spy={true} smooth={false}>    
         <svg color = "black">
           <defs>
-            <marker id="m" markerWidth="4" markerHeight="8" 
+            <marker id="m" markerWidth="" markerHeight="4" 
             refX="0" refY="1" viewBox="0 0 1 2">
-              <polygon points="0,0 1,1 0,2" fill="grey"/>
+              <polygon points="0,0 1,1 0,2" fill="black"/>
             </marker>
           </defs>
           <line x1="50%" y1="50%" x2="100%" y2="50%" 
-          stroke-width="2" marker-end="url(#m)" stroke="grey"/>
+          stroke-width="8" marker-end="url(#m)" stroke="black"/>
         </svg>
         </Link>
     </div>
        
     <AllCards className="all"></AllCards>
 
-    <footer className="footer"> 
-      <p>
-        Built using React.js and React Bootstrap
-      </p>
-    </footer>
   </div>
 
   );

@@ -9,6 +9,8 @@ import lmaoo from './lmaoo.png'
 import timey from './timey.png'
 import sp0t from './sp0t.png'
 import bffr from './bffr.png'
+import bgch from './bgch.png'
+import moneyhub from './moneyhub.png'
 
 
 
@@ -19,13 +21,15 @@ function AllCards() {
   return (
     
     <div className = "cardsHolder" id="cards">
-        <CardComponent img = {lmaoo} title = "LMAOO" text="Request your friends' reactions to videos" action = "LMAOO Website" site="https://lmaoo.wtf" desc="Built LMAOO's front-end using SwiftUI and implemented share feature using Firebase DynamicLinks">
+        <CardComponent img = {moneyhub} title = "MoneyHub Sessions: AI Learning Analytics" tool1="Next.js" tool2="MongoDB" tool3="OpenAI" action = "Visit MoneyHub Sessions" site="https://moneyhub-ai-integrated-one.vercel.app/" desc="Designed, architected, developed MoneyHub Sessions, a platform where educators can choose lessons, students scan for pre and post quizzes, and teachers gain AI-powered learning insights.">
         </CardComponent>
-        <CardComponent img = {timey} title = "TIMEY" text="Smart timer that holds you accountable" action = "Timey.me" site="https://timey.me" desc="Front-end made with React.js, designed with Figma">
+        <CardComponent img = {bgch} title = "Boys and Girls Club of Harlem" tool1="Wordpress" tool2="HTML/CSS" tool3="Javascript" action = "Visit Harlembgc.org" site="https://harlembgc.org" desc="Performed a complete overhaul of website, from design to development. Currently managing BGCH's web presence, including website, donation platform, and newsletter marketing">
         </CardComponent>
-        <CardComponent img = {sp0t} title = "sp0t" text="Location based social media" action = "sp0t app" site="https://sp0t.app/" desc="Helped build sp0t's notification, find friends, and onboarding page using Swift. Currently working on share post feature using Firebase Dynamic Links">
+        <CardComponent img = {sp0t} title = "sp0t: Location Based Social Media" tool1="SwiftUI" tool2="UIKit" tool3="Firebase" action = "Try sp0t" site="https://apps.apple.com/us/app/sp0t/id1477764252" desc="As a SWE intern, I built sp0t's notification, find friends, and onboarding features.">
         </CardComponent>
-        <CardComponent img = {bffr} title = "BFFR" text="BeReal, for music" action = "BFFR sample feed" site="https://github.com/shaygyawali/bffr-works" desc="Currently in the works. Designing and building BFFR's interface using Figma and MERN stack. After running using READ.ME instructions, use any dummy data to log in and view sample feed">
+        <CardComponent img = {lmaoo} title = "LMAOO: Blind Reactions to Shared Media" tool1="UIKit" tool2="Snap SDK" tool3="Firebase" action = "LMAOO Website" site="https://lmaoo.wtf" desc="Built LMAOO's front-end interface and implemented share feature using Snap SDK and Firebase DynamicLinks">
+        </CardComponent>
+        <CardComponent img = {timey} title = "TIMEY: Face Detection Smart Timer" tool1="MERN Stack" tool2="Figma" tool3="Flask" action = "Timey.me" site="https://timey.me" desc="Front-end made with React.js, designed with Figma">
         </CardComponent>
         <div class="foot"></div>
     </div>
